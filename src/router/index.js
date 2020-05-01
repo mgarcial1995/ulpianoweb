@@ -1,10 +1,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Services from "../views/Services.vue";
 import Contact from "../views/Contact.vue";
-import Ubication from "../views/Ubication.vue";
+import Service from "../views/Service.vue";
 import Error from "../views/Error.vue";
 
 Vue.use(VueRouter);
@@ -16,24 +17,24 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about",
-    name: "About",
+    path: "/nosotros",
+    name: "Nosotros",
     component: About,
   },
   {
-    path: "/services",
+    path: "/servicios",
     name: "Services",
     component: Services,
   },
   {
-    path: "/contact",
+    path: "/contacto",
     name: "Contact",
     component: Contact,
   },
   {
-    path: "/ubication",
-    name: "Ubication",
-    component: Ubication,
+    path: "/servicios/:name",
+    name: "Servicio",
+    component: Service,
   },
   { path: "*", name: "Error", component: Error },
 ];

@@ -2,3 +2,64 @@
   margin: 0;
   padding: 0;
 }
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+$color-text: #444444;
+$color-lila-principal: #59003a;
+$color-lila-guias: #732257;
+$color-lila-fondo: #f2e0ec;
+$color-buttons: #a6006c;
+
+// Navegador
+.navigator {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  box-shadow: rgba(90, 0, 58, 0.25) 0px 7px 10px;
+
+}
+
+.navigator__item {
+  text-decoration: none;
+  &:hover p {
+    text-decoration: underline solid;
+  }
+}
+.navigator__item--group {
+  color: $color-lila-principal;
+  display: flex;
+
+  &:hover {
+  }
+  p {
+    padding-left: 5px;
+  }
+}
+
+.list__services {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.service__card {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #333;
+
+  p {
+  }
+
+  img {
+    width: 100%;
+    height: 150px;
+  }
+}

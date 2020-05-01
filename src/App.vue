@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <Navigator /> -->
     <router-view></router-view>
   </div>
 </template>
@@ -9,6 +8,10 @@
 import Navigator from "./components/Navigator.vue";
 export default {
   name: "App",
-  components: Navigator
+  components: Navigator,
+  data() {
+    return {};
+  },
+  methods: {}
 };
 </script>
