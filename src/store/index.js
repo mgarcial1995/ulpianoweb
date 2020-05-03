@@ -5,6 +5,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
+    isConciliacion: true,
     services: [
       {
         id: 0,
@@ -33,14 +34,23 @@ const store = new Vuex.Store({
         name: "Tenencia de hijos",
         text: "Contenido de Tenencia de hijos",
       },
+      {
+        id: 3,
+        img:
+          "http://www.fondosblackberry.com/user-content/uploads/wall/mid/91/Cayo-los-Mosquises-Venezuela1.JPG",
+        banner:
+          "https://image.freepik.com/vector-gratis/vista-rio-congelado-pequenas-casas-campo-montanas-concepto-paisaje-invernal-hills-hills_48369-13939.jpg",
+        name: "Nuevo objeto",
+        text: "Contenido de Nuevo objeto",
+      },
     ],
   },
   getters: {
     services: (state) => {
       return state.services;
     },
-    service: (state) => (name) => {
-      return state.services.find((service) => service.name === name);
+    service: (state) => (id) => {
+      return state.services.find((service) => service.id === id);
     },
   },
   mutations: {},

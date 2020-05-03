@@ -5,7 +5,7 @@ import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Services from "../views/Services.vue";
 import Contact from "../views/Contact.vue";
-import Service from "../views/Service.vue";
+import ServiceInfo from "../views/ServiceInfo.vue";
 import Error from "../views/Error.vue";
 
 Vue.use(VueRouter);
@@ -32,9 +32,9 @@ const routes = [
     component: Contact,
   },
   {
-    path: "/servicios/:name",
+    path: "/servicios/:id/:name",
     name: "Servicio",
-    component: Service,
+    component: ServiceInfo,
   },
   { path: "*", name: "Error", component: Error },
 ];

@@ -1,8 +1,9 @@
 <template>
-  <div class="ubication">
-    <Navigator />
+  <div class="service__info">
+    <!-- <Navigator /> -->
     <router-link to="/servicios">X</router-link>
     <div class="info" v-if="service">
+      <img :src="service.banner" alt />
       <h1>{{ service.name }}</h1>
       <p>{{ service.text }}</p>
     </div>
@@ -10,16 +11,16 @@
 </template>
 
 <script>
-import Navigator from "../components/Navigator.vue";
+// import Navigator from "../components/Navigator.vue";
 export default {
   name: "Service",
-  components: { Navigator },
+  components: {},
   data() {
     return {};
   },
   computed: {
     service() {
-      return this.$store.getters.service(this.$route.params.name);
+      return this.$store.getters.service(this.$route.params.id);
     }
   }
 };
