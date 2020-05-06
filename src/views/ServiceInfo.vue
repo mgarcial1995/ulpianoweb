@@ -1,11 +1,41 @@
 <template>
   <div class="service__info">
     <!-- <Navigator /> -->
-    <router-link to="/servicios">X</router-link>
-    <div class="info" v-if="service">
-      <img :src="service.banner" alt />
-      <h1>{{ service.name }}</h1>
-      <p>{{ service.text }}</p>
+    <div class="service__info__container">
+      <div class="service__info__container__pre">
+        <router-link to="/servicios">
+          <i class="fas fa-arrow-circle-left"></i>
+        </router-link>
+        <p class="service__info__container__pre--category">{{ service.category }}</p>
+      </div>
+
+      <div class="service__info__container__content" v-if="service">
+        <img :src="service.banner" alt />
+        <h1>{{ service.name }}</h1>
+        <p>{{ service.text }}</p>
+      </div>
+    </div>
+    <div class="form__section">
+      <form class="form__contact" action>
+        <p>Rellena tus datos para más información</p>
+        <input class="form__contact--input" id="name" placeholder="Nombre" type="text" name="name" />
+        <input
+          class="form__contact--input"
+          id="mobile"
+          placeholder="Celular"
+          type="text"
+          name="mobile"
+        />
+        <input
+          class="form__contact--input"
+          id="email"
+          placeholder="Correo"
+          type="email"
+          name="email"
+        />
+
+        <input class="form__contact--input button" type="button" value="Enviar datos" />
+      </form>
     </div>
   </div>
 </template>

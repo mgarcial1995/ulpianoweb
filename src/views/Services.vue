@@ -2,18 +2,9 @@
   <div class="services">
     <div class="services__container">
       <div class="services__container__services">
-        <h2>Conciliacion familiar</h2>
+        <p>Conciliaciones familiar y civil</p>
         <div class="list__services">
-          <div v-for="(service, index) in services" :key="index">
-            <Service v-if="service.category == 'CF'" :service="service" />
-          </div>
-        </div>
-
-        <h2>Conciliacion Civil</h2>
-        <div class="list__services">
-          <div v-for="(service, index) in services" :key="index">
-            <Service v-if="service.category == 'CC'" :service="service" />
-          </div>
+          <Service v-for="(service, index) in services" :key="index" :service="service" />
         </div>
       </div>
       <div class="form__section">

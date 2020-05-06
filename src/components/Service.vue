@@ -9,8 +9,11 @@
       }
     }"
   >
-    <p class="service__card--name">{{ service.name }}</p>
     <img class="service__card--image" :src="service.img" alt />
+    <div class="service__card__box">
+      <p class="service__card__box--name">{{ service.name }}</p>
+      <p class="service__card__box--description">{{ service.description }}</p>
+    </div>
   </router-link>
 </template>
 
