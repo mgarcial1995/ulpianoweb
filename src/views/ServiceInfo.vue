@@ -14,7 +14,7 @@
           <img :src="service.banner" alt />
           <h1>{{ service.name }}</h1>
         </div>
-        <p class="service__info__container__content--text">{{ service.text }}</p>
+        <p class="service__info__container__content--text" v-html="service.text"></p>
       </div>
 
       <a

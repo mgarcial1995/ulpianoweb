@@ -15,8 +15,10 @@ const store = new Vuex.Store({
         banner:
           "https://blog.uclm.es/derechoconstitucionaltoledo/files/2017/11/Especialidad-en-Justicia-Constitucional-2-1080x420.jpg",
         name: "Regimen de visitas",
-        text:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        text: `El régimen de visitas es el derecho del padre o la madre que está separado o divorciado y que no tiene la guarda y custodia de sus hijos a pasar tiempo con sus hijos. Hay que decir que, además del derecho a un régimen de visitas 
+          el progenitor no custodio tiene el deber de pagar la pensión de alimentos a favor de los hijos, pero que, el incumplimiento del pago de la pensión de alimentos no implica que el régimen de visitas se extinga. Es decir, con independencia 
+          del pago o no de la pensión de alimentos el padre o la madre tiene derecho a pasar tiempo con su hijo, porque se entiende que no solo es un derecho del padre o de la madre, sino también del hijo y que el pago de la pensión de alimentos
+          no debe ser condición para pasar tiempo con los hijos.`,
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         category: "Conciliación Familiar",
@@ -28,7 +30,12 @@ const store = new Vuex.Store({
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Pension de alimentos",
-        text: "Contenido de Pension de alimentos",
+        text: `La pensión de alimentos puede definirse como el deber impuesto a una o varias personas de asegurar la subsistencia de una u otra, 
+          suponiendo la conjunción de dos partes: una acreedora que se llama alimentista, que tiene el derecho a exigir y recibir los alimentos, 
+          y otra deudora llamada alimentante, que tiene el deber legal y moral de prestarlos. Tratándose de  una separación matrimonial o divorcio, 
+          la obligación de alimentos consiste en el deber impuesto a uno de los cónyuges frente al otro cónyuge o frente a los hijos. 
+          <br/> 
+          La pension de alimentos comprenden todo lo indispensable para el sustento, habitación, vestido, asistencia médica y educación e instrucción del alimentista.`,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 
         category: "Conciliación Familiar",
@@ -40,7 +47,12 @@ const store = new Vuex.Store({
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Tenencia de hijos",
-        text: "Contenido de Tenencia de hijos",
+        text: `La tenencia es una institución familiar que surge cuando los padres están separados de hecho o de derecho y tiene como finalidad establecer con quien se quedará el menor.
+        Uno de los padres ejerce el derecho de tener a su hijo o hijos consigo. En la tenencia uno de los padres puede ceder este derecho según lo establecido por ley.
+        <br/> <br/>
+        La tenencia provisional es la facultad que tiene el padre que no tiene la custodia del menor de recurrir al Juez para solicitarle la tenencia provisional. Esto normalmente ocurre cuando el menor corre algún peligro en su integridad física o psicológica.
+Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la tenencia provisional. Sin embargo, este padre o  madre que tiene la tenencia provisional podrá solicitar la tenencia.
+        `,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 
         category: "Conciliación Familiar",

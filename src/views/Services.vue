@@ -10,7 +10,7 @@
         <p class="services__container__services--text">
           El servicio de asesoría legal brinda a la ciudadanía peruana y
           extranjera. la posibilidad de orientación general de manera gratuita
-          en diversas materias legales, como son: matrimonio, divorcio, sucesión
+          en diversas materias legales, como son: <br> <br><br> matrimonio, divorcio, sucesión
           intestada, testamentos, contratos en general, incumplimiento de
           obligaciones, declaratorias de fábricas, separación de bienes,
           saneamiento legal de propiedades y vehículos, alimentos, violencia
@@ -19,7 +19,7 @@
           entrega de menor, régimen de visitas, interdicción, curatela, tutela,
           inscripción de partidas, incumplimientos laborales, constitución de
           empresas, delitos, faltas, etc.
-        </p>-->
+        </p> -->
       </div>
       <div class="form__section">
         <form class="form__contact" action>
