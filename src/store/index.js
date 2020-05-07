@@ -11,11 +11,12 @@ const store = new Vuex.Store({
       {
         id: 1,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+          "https://blog.uclm.es/derechoconstitucionaltoledo/files/2017/11/Especialidad-en-Justicia-Constitucional-2-1080x420.jpg",
         name: "Regimen de visitas",
-        text: "Contenido de regimen de visitas",
+        text:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
         category: "Conciliación Familiar",
@@ -23,7 +24,7 @@ const store = new Vuex.Store({
       {
         id: 2,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Pension de alimentos",
@@ -35,7 +36,7 @@ const store = new Vuex.Store({
       {
         id: 3,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Tenencia de hijos",
@@ -47,7 +48,7 @@ const store = new Vuex.Store({
       {
         id: 4,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Liquidacion de Gananciales",
@@ -62,7 +63,7 @@ const store = new Vuex.Store({
       {
         id: 5,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Desalojo",
@@ -74,7 +75,7 @@ const store = new Vuex.Store({
       {
         id: 6,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Pago de deudas",
@@ -86,7 +87,7 @@ const store = new Vuex.Store({
       {
         id: 7,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Pago de alquileres",
@@ -98,7 +99,7 @@ const store = new Vuex.Store({
       {
         id: 8,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Obligación de dar suma de dinero",
@@ -110,7 +111,7 @@ const store = new Vuex.Store({
       {
         id: 9,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Obligación de dar, hacer y no hacer",
@@ -122,7 +123,7 @@ const store = new Vuex.Store({
       {
         id: 10,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Indemnización por daños y perjuicios",
@@ -134,7 +135,7 @@ const store = new Vuex.Store({
       {
         id: 11,
         img:
-          "https://bloqueconstitucional.com/wp-content/uploads/2018/11/Acun%CC%83a-arti%CC%81culo-Web-proyecto-2-710x372.jpg",
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Incumplimiento de contratos",
@@ -142,6 +143,28 @@ const store = new Vuex.Store({
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 
         category: "Conciliación Civil",
+      },
+      {
+        id: 12,
+        img:
+          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Asesoria legal",
+        text: `El servicio de asesoría legal brinda a la ciudadanía peruana y
+        extranjera. la posibilidad de orientación general de manera gratuita
+        en diversas materias legales, como son: matrimonio, divorcio, sucesión
+        intestada, testamentos, contratos en general, incumplimiento de
+        obligaciones, declaratorias de fábricas, separación de bienes,
+        saneamiento legal de propiedades y vehículos, alimentos, violencia
+        familiar, omisión de asistencia familiar, rectificación de partidas,
+        filiación extramatrimonial, patria potestad, tenencia, custodia y
+        entrega de menor, régimen de visitas, interdicción, curatela, tutela,
+        inscripción de partidas, incumplimientos laborales, constitución de
+        empresas, delitos, faltas, etc`,
+        description:
+          "Orientación general de manera gratuita en diversas materias legales",
+        category: "Asesoria Legal",
       },
     ],
   },

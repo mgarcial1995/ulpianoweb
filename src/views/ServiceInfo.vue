@@ -10,10 +10,26 @@
       </div>
 
       <div class="service__info__container__content" v-if="service">
-        <img :src="service.banner" alt />
-        <h1>{{ service.name }}</h1>
-        <p>{{ service.text }}</p>
+        <div class="service__info__container__content--banner">
+          <img :src="service.banner" alt />
+          <h1>{{ service.name }}</h1>
+        </div>
+        <p class="service__info__container__content--text">{{ service.text }}</p>
       </div>
+
+      <a
+        v-if="service.category === 'Conciliación Civil' || service.category === 'Conciliación Familiar'"
+        href="#"
+        class="service__info__container__file"
+      >
+        <div class="service__info__container__file--button">
+          <i class="fas fa-file-download"></i>
+        </div>
+        <div class="service__info__container__file--text">
+          Descarga la solicitud para conciliar, rellena tus datos y acércate a
+          nuestras instalaciones.
+        </div>
+      </a>
     </div>
     <div class="form__section">
       <form class="form__contact" action>
