@@ -34,11 +34,21 @@
             conclusión de un procedimiento conciliatorio.
           </p>
         </div>
-        <div class="box__home--img"></div>
+        <div class="box__home--img">
+          <img
+            src="https://www.ambitojuridico.com/sites/default/files/etica-poder-judicialbigstock.jpg"
+            alt
+          />
+        </div>
       </div>
 
       <div class="box__home">
-        <div class="box__home--img"></div>
+        <div class="box__home--img">
+          <img
+            src="https://image.freepik.com/free-photo/business-team-meeting-strategy-marketing-cafe-concept_53876-72931.jpg"
+            alt
+          />
+        </div>
         <div class="box__infohome" style="padding-right: 0px;">
           <p class="box__infohome--title">Ventajas de la Conciliación</p>
           <p class="box__infohome--text">
