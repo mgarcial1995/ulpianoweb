@@ -1,14 +1,17 @@
 <template>
   <div id="app">
     <div class="navigator">
-      <router-link class="navigator__item" to="/">
+      <div class="menu__mob__button">
+        <i class="fas fa-bars"></i>
+      </div>
+      <router-link class="navigator__item mobile-none" to="/">
         <div class="navigator__item--group">
           <i class="fas fa-home"></i>
           <p>Inicio</p>
         </div>
         <hr class="navigator__item--line" />
       </router-link>
-      <router-link class="navigator__item" to="/nosotros">
+      <router-link class="navigator__item mobile-none" to="/nosotros">
         <div class="navigator__item--group">
           <i class="fas fa-user-tie"></i>
           <p>Nosotros</p>
@@ -18,14 +21,14 @@
       <router-link class="navigator__item" to="/">
         <img src="./assets/logo.png" alt />
       </router-link>
-      <router-link class="navigator__item" to="/servicios">
+      <router-link class="navigator__item mobile-none" to="/servicios">
         <div class="navigator__item--group">
           <i class="fas fa-book"></i>
           <p>Servicios</p>
         </div>
         <hr class="navigator__item--line" />
       </router-link>
-      <router-link class="navigator__item" to="/contacto">
+      <router-link class="navigator__item mobile-none" to="/contacto">
         <div class="navigator__item--group">
           <i class="fas fa-phone-alt"></i>
           <p>Contacto</p>

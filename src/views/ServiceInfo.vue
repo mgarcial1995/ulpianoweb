@@ -18,8 +18,11 @@
       </div>
 
       <a
-        v-if="service.category === 'Conciliación Civil' || service.category === 'Conciliación Familiar'"
         href="#"
+        v-if="
+          service.category == 'Conciliación Civil' ||
+            service.category == 'Conciliación Familiar'
+        "
         class="service__info__container__file"
       >
         <div class="service__info__container__file--button">
@@ -58,15 +61,32 @@
 
 <script>
 // import Navigator from "../components/Navigator.vue";
+import axios from "axios";
 export default {
   name: "Service",
   components: {},
   data() {
-    return {};
+    return {
+      url: "../assets/Solicitud.pdf"
+    };
   },
   computed: {
     service() {
       return this.$store.getters.service(this.$route.params.id);
+    }
+  },
+  methods: {
+    downloadItem(url) {
+      axios
+        .get(url, { responseType: "blob" })
+        .then(response => {
+          const blob = new Blob([response.data], { type: "application/pdf" });
+          const link = document.createElement("a");
+          link.href = URL.createObjectURL(blob);
+          link.click();
+          URL.revokeObjectURL(link.href);
+        })
+        .catch(console.error);
     }
   }
 };

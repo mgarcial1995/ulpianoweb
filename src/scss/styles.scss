@@ -7,7 +7,9 @@ body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
-
+.logo {
+  display: block;
+}
 $color-text: #444444;
 $color-lila-principal: #59003a;
 $color-lila-guias: #732257;
@@ -50,6 +52,16 @@ $height-navigator: 100px;
   -ms-animation: arrow linear 0.8s;
   -ms-animation-iteration-count: 1;
   -ms-transform-origin: 50% 50%;
+}
+
+.app {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.menu__mob__button {
+  display: none;
 }
 
 @keyframes arrow {
@@ -520,7 +532,7 @@ $height-navigator: 100px;
   margin: 0;
   padding: 0;
   .form__contact {
-    max-width: 400px;
+    width: 400px;
     height: auto;
     box-shadow: 10px 10px 20px #dadada;
     border: 1px solid #ececec;
@@ -695,6 +707,7 @@ $height-navigator: 100px;
       justify-content: space-between;
       padding-top: 50px;
       text-decoration: none;
+      cursor: pointer;
       &--button {
         width: 60px;
         height: 60px;
@@ -763,3 +776,112 @@ $height-navigator: 100px;
   }
 }
 // CERRANDO CONTACTO
+@media only screen and (min-width: 320px) and (max-width: 736px) {
+  .mobile-none {
+    display: none;
+  }
+
+  // NAVEGADOR
+  .navigator {
+    justify-content: space-around;
+  }
+  .menu__mob__button {
+    display: block;
+    font-size: 40px;
+    color: #59003a;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+  // CIERRE NAVEGADOR
+
+  // HOME
+  .home {
+    &__box {
+      height: auto;
+      .banner {
+        p {
+          width: 80%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 0;
+          z-index: 1;
+        }
+        img {
+          height: 100%;
+          filter: grayscale(0.8);
+        }
+      }
+    }
+    &__container__box {
+      width: 92%;
+      margin: 50px auto 0 auto;
+      padding: 0;
+      &--title {
+        position: unset;
+        top: auto;
+        padding: 20px 30px 0 30px;
+      }
+      &--text {
+        padding: 30px;
+      }
+    }
+    .box__curiosity__a {
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      &--title {
+        padding: 0;
+        padding-bottom: 10px;
+      }
+      &--text {
+        padding: 0;
+      }
+    }
+    .box__home {
+      width: 100%;
+      flex-direction: column;
+      .box__infohome {
+        width: 100%;
+        padding: 0 !important;
+        &--title {
+          padding-left: 25px;
+        }
+        &--text {
+          padding: 25px;
+        }
+      }
+    }
+  }
+
+  .guide__section .text__guide {
+    width: 85%;
+    font-size: 40px;
+  }
+
+  // CIERRE HOME
+
+  // NOSOTROS
+
+  .group__section {
+    flex-direction: column;
+    align-items: center;
+    .worker__card{
+      margin-bottom: 20px;
+    }
+  }
+  // CIERRE NOSOTROS
+
+  // SERVICIOS
+
+  // CIERRE SERVICIOS
+
+  // SERVICIO
+
+  // CIERRE SERVICIO
+
+  // CONTACTO
+
+  // CIERRE CONTACTO
+}

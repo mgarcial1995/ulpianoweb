@@ -2,11 +2,7 @@
   <div class="home">
     <div class="home__box">
       <div class="banner">
-        <p>
-          ¿Tienes problemas
-          <br />legales y quieres
-          <br />arreglarlos?
-        </p>
+        <p class="banner--text">¿Tienes problemas legales y quieres arreglarlos?</p>
         <img src="https://hayderecho.expansion.com/wp-content/uploads/2020/01/neoattack-HD.jpg" alt />
       </div>
       <p>Lo que buscas es conciliar</p>
@@ -34,7 +30,7 @@
             conclusión de un procedimiento conciliatorio.
           </p>
         </div>
-        <div class="box__home--img">
+        <div class="box__home--img mobile-none">
           <img
             src="https://www.ambitojuridico.com/sites/default/files/etica-poder-judicialbigstock.jpg"
             alt
@@ -43,7 +39,7 @@
       </div>
 
       <div class="box__home">
-        <div class="box__home--img">
+        <div class="box__home--img mobile-none">
           <img
             src="https://image.freepik.com/free-photo/business-team-meeting-strategy-marketing-cafe-concept_53876-72931.jpg"
             alt
