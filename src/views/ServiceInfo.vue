@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 <template>
   <div class="service__info">
     <!-- <Navigator /> -->
@@ -18,11 +19,11 @@
       </div>
 
       <a
-        href="#"
-        v-if="
-          service.category == 'Conciliación Civil' ||
-            service.category == 'Conciliación Familiar'
-        "
+        href="https://firebasestorage.googleapis.com/v0/b/ulpiano-dd694.appspot.com/o/solicitud.pdf?alt=media&token=018a9279-73a6-4c97-9162-d2baff0328b4"
+        download
+        target="_blank"
+        v-if="service.category == 'Conciliación Civil' ||
+            service.category == 'Conciliación Familiar'"
         class="service__info__container__file"
       >
         <div class="service__info__container__file--button">
@@ -61,33 +62,19 @@
 
 <script>
 // import Navigator from "../components/Navigator.vue";
+// eslint-disable-next-line no-unused-vars
 import axios from "axios";
 export default {
   name: "Service",
   components: {},
   data() {
-    return {
-      url: "../assets/Solicitud.pdf"
-    };
+    return {};
   },
   computed: {
     service() {
       return this.$store.getters.service(this.$route.params.id);
     }
   },
-  methods: {
-    downloadItem(url) {
-      axios
-        .get(url, { responseType: "blob" })
-        .then(response => {
-          const blob = new Blob([response.data], { type: "application/pdf" });
-          const link = document.createElement("a");
-          link.href = URL.createObjectURL(blob);
-          link.click();
-          URL.revokeObjectURL(link.href);
-        })
-        .catch(console.error);
-    }
-  }
+  methods: {}
 };
 </script>

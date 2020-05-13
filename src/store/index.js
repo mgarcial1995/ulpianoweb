@@ -21,6 +21,7 @@ const store = new Vuex.Store({
           no debe ser condición para pasar tiempo con los hijos.`,
         description: "El derecho de pasar el tiempo con los hijos.",
         category: "Conciliación Familiar",
+        url: "",
       },
       {
         id: 2,
@@ -226,3 +227,5 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
 });
 
 export default store;
+
+// PONER SCROLL TOP 0 AL ENTRAR EN CUALQUIER PAGINA
