@@ -2,17 +2,17 @@
   <router-link
     class="service__card"
     :to="{
-      name: 'Servicio',
+      name: 'ServicioAsesoria',
       params: {
-        id: service.id,
-        name: service.name
+        id: service_extra.id,
+        name: service_extra.name
       }
     }"
   >
-    <img class="service__card--image" :src="service.img" :alt="service.name" />
+    <img class="service__card--image" :src="service_extra.img" :alt="service_extra.name" />
     <div class="service__card__box">
-      <p class="service__card__box--name">{{ service.name }}</p>
-      <p class="service__card__box--description">{{ service.description }}</p>
+      <p class="service__card__box--name">{{ service_extra.name }}</p>
+      <p class="service__card__box--description">{{ service_extra.description }}</p>
     </div>
   </router-link>
 </template>
@@ -21,7 +21,7 @@
 export default {
   name: "Services",
   props: {
-    service: { required: true, type: Object }
+    service_extra: { required: true, type: Object }
   },
   components: {},
   computed: {}

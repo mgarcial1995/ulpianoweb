@@ -202,14 +202,24 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
     ],
     services_extra: [
       {
-        id: 1,
+        id: 13,
         img: require("../assets/services/civil/pago-de-deudas.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
-        name: "Asesoria legal",
+        name: "Asesoria Juridica",
         text: "Contenido de asesoria legal",
         description: "Contenido de asesoria legal.",
         category: "Asesoria Juridica",
+      },
+      {
+        id: 14,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Asesoria Prueba",
+        text: "Contenido de asesoria legal",
+        description: "Contenido de Prueba",
+        category: "Asesoria Jurídica",
       },
     ],
   },
@@ -224,7 +234,9 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       return state.services_extra;
     },
     serviceExtra: (state) => (id) => {
-      return state.services_extra.find((serviceExtra) => serviceExtra.id === id);
+      return state.services_extra.find(
+        (serviceExtra) => serviceExtra.id === id
+      );
     },
   },
   mutations: {},

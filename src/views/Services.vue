@@ -4,11 +4,16 @@
       <div class="services__container__services">
         <p class="services__container__services--title">Conciliaciones familiar y civil</p>
         <div class="list__services">
-          <Service v-for="(service) in services" :key="service.id" :service="service" />
+          <Service v-for="service in services" :key="service.id" :service="service" />
         </div>
+
         <p class="services__container__services--title">Asesoria Jurídica</p>
         <div class="list__services">
-          <!-- <Service v-for="(service, index) in services" :key="index" :service="service" /> -->
+          <ServiceExtra
+            v-for="service_extra in services_extra"
+            :key="service_extra.id"
+            :service_extra="service_extra"
+          />
         </div>
       </div>
       <div class="form__section">
@@ -59,15 +64,17 @@
 
 <script>
 import Service from "../components/Service.vue";
+import ServiceExtra from "../components/ServiceExtra.vue";
 
 import { mapState } from "vuex";
 
 export default {
   name: "Services",
 
-  components: { Service },
+  components: { Service, ServiceExtra },
   computed: {
-    ...mapState(["services", "services_extra"])
+    ...mapState(["services"]),
+    ...mapState(["services_extra"])
   }
 };
 </script>

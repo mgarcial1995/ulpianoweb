@@ -6,6 +6,8 @@ import About from "../views/About.vue";
 import Services from "../views/Services.vue";
 import Contact from "../views/Contact.vue";
 import ServiceInfo from "../views/ServiceInfo.vue";
+import ServiceInfoExtra from "../views/ServiceInfoExtra.vue";
+
 import Error from "../views/Error.vue";
 
 Vue.use(VueRouter);
@@ -35,6 +37,11 @@ const routes = [
     path: "/servicios/:id/:name",
     name: "Servicio",
     component: ServiceInfo,
+  },
+  {
+    path: "/servicios-asesoria/:id/:name",
+    name: "ServicioAsesoria",
+    component: ServiceInfoExtra,
   },
   { path: "*", name: "Error", component: Error },
 ];

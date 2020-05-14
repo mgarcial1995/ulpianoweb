@@ -73,9 +73,6 @@ export default {
   computed: {
     service() {
       return this.$store.getters.service(this.$route.params.id);
-    },
-    serviceExtra() {
-      return this.$store.getters.serviceExtra(this.$route.params.id);
     }
   },
   methods: {}
