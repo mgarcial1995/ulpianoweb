@@ -10,8 +10,7 @@ const store = new Vuex.Store({
       // CONCILIACION FAMILIAR
       {
         id: 1,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/familiar/regimen-de-visitas.jpg"),
         banner:
           "https://blog.uclm.es/derechoconstitucionaltoledo/files/2017/11/Especialidad-en-Justicia-Constitucional-2-1080x420.jpg",
         name: "Regimen de visitas",
@@ -21,12 +20,10 @@ const store = new Vuex.Store({
           no debe ser condición para pasar tiempo con los hijos.`,
         description: "El derecho de pasar el tiempo con los hijos.",
         category: "Conciliación Familiar",
-        url: "",
       },
       {
         id: 2,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/familiar/pension-de-alimentos.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Pension de alimentos",
@@ -43,8 +40,7 @@ const store = new Vuex.Store({
       },
       {
         id: 3,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/familiar/tenencia-de-hijos.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Tenencia de hijos",
@@ -60,8 +56,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       },
       {
         id: 4,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/familiar/liquidacion-de-gananciales.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Liquidacion de Gananciales",
@@ -76,8 +71,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
 
       {
         id: 5,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/civil/desalojo.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Desalojo",
@@ -93,8 +87,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       },
       {
         id: 6,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Pago de deudas",
@@ -108,8 +101,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       },
       {
         id: 7,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/civil/pago-de-alquileres.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Pago de alquileres",
@@ -123,8 +115,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       },
       {
         id: 8,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/civil/obligacion-de-dar-dinero.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Obligación de dar suma de dinero",
@@ -140,8 +131,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       },
       {
         id: 9,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/civil/obligacion-de-hacer-no-hacer.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Obligación de dar, hacer y no hacer",
@@ -151,8 +141,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       },
       {
         id: 10,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/civil/indemnizacion-por-daños-y-perjuicios.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Indemnización por daños y perjuicios",
@@ -175,8 +164,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       },
       {
         id: 11,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/civil/incumplimiento-de-contrato.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Incumplimiento de contratos",
@@ -192,8 +180,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       },
       {
         id: 12,
-        img:
-          "https://image.freepik.com/free-photo/judge-gavel-with-justice-lawyers-object-documents-working-table_28283-893.jpg",
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Asesoria legal",
@@ -213,6 +200,18 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
         category: "Asesoria Legal",
       },
     ],
+    services_extra: [
+      {
+        id: 1,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Asesoria legal",
+        text: "Contenido de asesoria legal",
+        description: "Contenido de asesoria legal.",
+        category: "Asesoria Juridica",
+      },
+    ],
   },
   getters: {
     services: (state) => {
@@ -221,11 +220,15 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
     service: (state) => (id) => {
       return state.services.find((service) => service.id === id);
     },
+    servicesExtra: (state) => {
+      return state.services_extra;
+    },
+    serviceExtra: (state) => (id) => {
+      return state.services_extra.find((serviceExtra) => serviceExtra.id === id);
+    },
   },
   mutations: {},
   actions: {},
 });
 
 export default store;
-
-// PONER SCROLL TOP 0 AL ENTRAR EN CUALQUIER PAGINA

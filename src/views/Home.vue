@@ -68,10 +68,10 @@
     </div>
 
     <div class="guide__section">
-      <router-link to="/nosotros" class="arrow__guide" href="#">
+      <p class="text__guide">Conoce sobre más sobre nosotros</p>
+      <router-link to="/nosotros" class="arrow__guide">
         <img src="../assets/arrow-guide.svg" alt="arrow" />
       </router-link>
-      <p class="text__guide">Conoce sobre más sobre nosotros</p>
     </div>
   </div>
 </template>
