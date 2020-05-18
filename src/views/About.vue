@@ -25,9 +25,9 @@
         </div>
         <div class="valor__container__box">
           <p class="valor__container__box--title">Visión</p>
-          <p class="valor__container__box--text">
-            Ser un estudio reconocido por su alta capacidad y profesionalismo.
-          </p>
+          <p
+            class="valor__container__box--text"
+          >Ser un estudio reconocido por su alta capacidad y profesionalismo.</p>
         </div>
         <div class="valor__container__box">
           <p class="valor__container__box--title">Valores</p>
@@ -39,7 +39,7 @@
       </div>
 
       <div class="home__container__box">
-        <p class="home__container__box--title">Responsabilidad social</p>
+        <p class="home__container__box--title large">Responsabilidad social</p>
         <p class="home__container__box--text">
           Ulpiano Abogados asume la relevancia de su participación no sólo de
           manera directa en el ámbito académico correspondiente a las áreas
@@ -49,10 +49,10 @@
           esfuerzos a nivel escolar como universitario.
           <br />
           <br />
-          <strong
-            >Autorizado su funcionamiento por R.D. N°
-            236-2017-JUS/DNJ-DCMA</strong
-          >
+          <strong>
+            Autorizado su funcionamiento por R.D. N°
+            236-2017-JUS/DNJ-DCMA
+          </strong>
         </p>
       </div>
 
@@ -85,9 +85,7 @@
             <img src="../assets/worker-1.png" alt />
           </div>
           <div class="worker__card--name">Johana Joysy Paucarcaja Ortiz</div>
-          <div class="worker__card--ocupation">
-            Conciliadora y abogada verificadora
-          </div>
+          <div class="worker__card--ocupation">Conciliadora y abogada verificadora</div>
         </div>
         <div class="worker__card">
           <div class="worker__card--banner"></div>

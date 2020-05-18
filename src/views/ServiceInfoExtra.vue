@@ -18,28 +18,7 @@
         <p class="service__info__container__content--text" v-html="serviceExtra.text"></p>
       </div>
     </div>
-    <div class="form__section">
-      <form class="form__contact" action>
-        <p>Rellena tus datos para más información</p>
-        <input class="form__contact--input" id="name" placeholder="Nombre" type="text" name="name" />
-        <input
-          class="form__contact--input"
-          id="mobile"
-          placeholder="Celular"
-          type="text"
-          name="mobile"
-        />
-        <input
-          class="form__contact--input"
-          id="email"
-          placeholder="Correo"
-          type="email"
-          name="email"
-        />
-
-        <input class="form__contact--input button" type="button" value="Enviar datos" />
-      </form>
-    </div>
+    <Form />
   </div>
 </template>
 
@@ -47,9 +26,11 @@
 // import Navigator from "../components/Navigator.vue";
 // eslint-disable-next-line no-unused-vars
 import axios from "axios";
+import Form from "../components/Form.vue";
+
 export default {
   name: "Service",
-  components: {},
+  components: { Form },
   data() {
     return {};
   },

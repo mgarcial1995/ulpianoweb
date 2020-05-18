@@ -29,6 +29,7 @@ $height-navigator: 100px;
   opacity: 0;
 }
 // cerrando transicion
+
 .app {
   width: 100%;
   height: auto;
@@ -179,7 +180,14 @@ $height-navigator: 100px;
       width: 100%;
       height: 500px;
       overflow: hidden;
-      p {
+      background: rgb(55, 55, 55);
+      background: linear-gradient(
+        90deg,
+        rgba(55, 55, 55, 1) 12%,
+        rgba(185, 185, 185, 1) 67%,
+        rgba(97, 97, 97, 1) 94%
+      );
+      &--text {
         font-size: 60px;
         font-weight: 800;
         color: #fff;
@@ -190,8 +198,12 @@ $height-navigator: 100px;
         width: 600px;
       }
       img {
-        width: 100%;
-        height: auto;
+        position: absolute;
+        width: auto;
+        height: 380px;
+        top: 50%;
+        right: 20%;
+        transform: translateY(-50%);
       }
     }
   }
@@ -314,8 +326,7 @@ $height-navigator: 100px;
     max-width: 400px;
     height: auto;
     text-align: center;
-    margin: 0 auto;
-    padding: 40px 0;
+    margin: 40px auto;
     &--title {
       font-weight: 800;
       font-size: 40px;
@@ -405,7 +416,9 @@ $height-navigator: 100px;
   min-height: 200px;
   margin: 0 auto;
   display: flex;
+  margin-bottom: 70px;
   &__services {
+    width: 65%;
     height: auto;
     &--title {
       font-size: 40px;
@@ -421,12 +434,18 @@ $height-navigator: 100px;
   }
 }
 .form__section {
+  width: 35%;
+  min-width: 400px;
   height: auto;
   margin: 0;
   padding: 0;
+  .close__form {
+    display: none;
+  }
   .form__contact {
-    width: 400px;
+    max-width: 400px;
     height: auto;
+    background-color: #fff;
     box-shadow: 10px 10px 20px #dadada;
     border: 1px solid #ececec;
     display: flex;
@@ -441,13 +460,34 @@ $height-navigator: 100px;
       padding-left: 10px;
     }
     &--input {
-      width: 90%;
-      max-width: 370px;
+      width: 100%;
+      font-weight: 400;
       height: 50px;
       border: 1px solid #cfcfcf;
       border-radius: 5px;
       margin: 20px auto;
-      padding-left: 15px;
+      // padding: 0px 15px;
+      font-size: 20px;
+      box-sizing: border-box;
+      padding: 0px 15px;
+      color: #444;
+
+      &::placeholder {
+        font-size: 20px;
+        color: #c2c2c2;
+      }
+    }
+    &--textarea {
+      width: 100%;
+      font-weight: 400;
+      font-family: "Montserrat";
+      height: 150px;
+      resize: none;
+      border: 1px solid #cfcfcf;
+      border-radius: 5px;
+      margin: 20px auto;
+      box-sizing: border-box;
+      padding: 10px 15px;
       font-size: 20px;
       color: #444;
       &::placeholder {
@@ -456,7 +496,11 @@ $height-navigator: 100px;
       }
     }
     .button {
-      width: 95%;
+      width: 98%;
+      height: 50px;
+      border: 1px solid #cfcfcf;
+      border-radius: 5px;
+      margin: 20px auto;
       padding: 0;
       border: none;
       background-color: $color-buttons;
@@ -481,6 +525,10 @@ $height-navigator: 100px;
       }
     }
   }
+}
+
+.button__open__form {
+  display: none;
 }
 
 .list__services {
@@ -544,6 +592,7 @@ $height-navigator: 100px;
 // SERVICIO
 .service__info {
   padding-top: 130px;
+  padding-bottom: 50px;
   width: 95%;
   height: auto;
   display: flex;
@@ -592,6 +641,7 @@ $height-navigator: 100px;
         font-size: 25px;
         color: #444;
         line-height: 40px;
+        text-align: justify;
       }
     }
     &__file {
@@ -599,9 +649,9 @@ $height-navigator: 100px;
       height: auto;
       display: flex;
       flex-direction: row;
-      // flex-wrap: wrap;
       justify-content: space-between;
-      padding: 50px 0px;
+      padding: 5px 0px;
+      margin: 30px 0px;
       text-decoration: none;
       cursor: pointer;
       &--button {
@@ -618,6 +668,16 @@ $height-navigator: 100px;
         font-size: 25px;
         padding: 0 15px;
         color: #444;
+      }
+    }
+    &__links {
+      width: 100%;
+      color: $color-text;
+      // color: #b1b1b1;
+      font-size: 20px;
+      padding-top: 20px;
+      a {
+        color: $color-lila-guias;
       }
     }
   }
@@ -675,6 +735,19 @@ $height-navigator: 100px;
     }
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .home__box {
+    .banner {
+      img {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
 // CERRANDO CONTACTO
 @media only screen and (min-width: 320px) and (max-width: 736px) {
   .home,
@@ -788,8 +861,7 @@ $height-navigator: 100px;
           z-index: 1;
         }
         img {
-          height: 100%;
-          filter: grayscale(0.8);
+          display: none;
         }
       }
     }
@@ -865,7 +937,23 @@ $height-navigator: 100px;
   .about {
     width: 100%;
   }
-
+  .valor__container {
+    &__box {
+      margin: 20px auto;
+      &--title {
+        font-size: 30px;
+      }
+      &--text {
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 25px;
+      padding: 30px 10px;
+    }
+  }
   .group__section {
     flex-direction: column;
     align-items: center;
@@ -878,7 +966,9 @@ $height-navigator: 100px;
   //servicios
   .services {
     padding-top: 100px;
+    position: relative;
     &__container {
+      position: relative;
       width: 80%;
       &__services {
         width: 100%;
@@ -897,9 +987,67 @@ $height-navigator: 100px;
 
   .form__section {
     display: none;
+    position: fixed;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
+    min-width: 0;
+    z-index: 110;
+    background-color: #fff;
     .form__contact {
+      max-width: 400px;
+      box-shadow: none;
+      border: none;
+      height: calc(100vh - 180px);
+      justify-content: space-around;
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      &--input {
+        margin: 0 auto;
+      }
+      &--textarea {
+        margin: 0 auto;
+      }
+      .button {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+    .close__form {
+      display: block;
+      font-size: 40px;
+      color: #59003a;
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
     }
   }
+  .button__open__form {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #fff;
+    background-color: #277ccc;
+    box-shadow: 3px 3px 5px #333;
+    position: fixed;
+    right: 20px;
+    // top: 100px;
+    bottom: 20px;
+    z-index: 100;
+    &:active {
+      box-shadow: 1px 1px 3px #333;
+    }
+  }
+
   // CIERRE SERVICIOS
 
   // SERVICIO
@@ -955,6 +1103,11 @@ $height-navigator: 100px;
     padding-top: 20px;
   }
   // CIERRE CONTACTO
+  .guide__section {
+    .text__guide {
+      font-size: 30px;
+    }
+  }
 }
 @media only screen and (max-width: 430px) {
   // HOME
@@ -965,6 +1118,8 @@ $height-navigator: 100px;
       }
       .banner {
         height: 400px;
+        background: #fff !important;
+
         p {
           font-size: 40px;
           text-align: center;
@@ -999,7 +1154,11 @@ $height-navigator: 100px;
     }
   }
   // CIERRE HOME
-
+  // NOSOTROS
+  .large {
+    font-size: 25px;
+  }
+  // CIERRE NOSOTROS
   // SERVICIOS
   .services {
     padding-top: 100px;

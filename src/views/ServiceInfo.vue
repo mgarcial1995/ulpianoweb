@@ -22,8 +22,6 @@
         href="https://firebasestorage.googleapis.com/v0/b/ulpiano-dd694.appspot.com/o/solicitud.pdf?alt=media&token=018a9279-73a6-4c97-9162-d2baff0328b4"
         download
         target="_blank"
-        v-if="service.category == 'Conciliación Civil' ||
-            service.category == 'Conciliación Familiar'"
         class="service__info__container__file"
       >
         <div class="service__info__container__file--button">
@@ -34,29 +32,20 @@
           nuestras instalaciones.
         </div>
       </a>
-    </div>
-    <div class="form__section">
-      <form class="form__contact" action>
-        <p>Rellena tus datos para más información</p>
-        <input class="form__contact--input" id="name" placeholder="Nombre" type="text" name="name" />
-        <input
-          class="form__contact--input"
-          id="mobile"
-          placeholder="Celular"
-          type="text"
-          name="mobile"
-        />
-        <input
-          class="form__contact--input"
-          id="email"
-          placeholder="Correo"
-          type="email"
-          name="email"
-        />
 
-        <input class="form__contact--input button" type="button" value="Enviar datos" />
-      </form>
+      <div class="service__info__container__links">
+        <p class="service__info__container__links--link">
+          Si deseas mayor información, te invitamos a leer la
+          <a
+            href="http://www.osce.gob.pe/htmls/conciliacion/leyconciliacionextraj.htm"
+          >Ley de Conciliación,</a> como también el
+          <a
+            href="http://www.justiciaviva.org.pe/acceso_justicia/conciliacion/2.pdf"
+          >Reglamento de Conciliación.</a>
+        </p>
+      </div>
     </div>
+    <Form />
   </div>
 </template>
 
@@ -64,9 +53,12 @@
 // import Navigator from "../components/Navigator.vue";
 // eslint-disable-next-line no-unused-vars
 import axios from "axios";
+import Form from "../components/Form.vue";
+
 export default {
   name: "Service",
-  components: {},
+
+  components: { Form },
   data() {
     return {};
   },

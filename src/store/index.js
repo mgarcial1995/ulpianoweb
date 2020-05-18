@@ -141,7 +141,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       },
       {
         id: 10,
-        img: require("../assets/services/civil/indemnizacion-por-daños-y-perjuicios.jpg"),
+        img: require("../assets/services/civil/indemnizacion-por-danos-y-perjuicios.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Indemnización por daños y perjuicios",
@@ -178,27 +178,6 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
 
         category: "Conciliación Civil",
       },
-      {
-        id: 12,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
-        name: "Asesoria legal",
-        text: `El servicio de asesoría legal brinda a la ciudadanía peruana y
-        extranjera. la posibilidad de orientación general de manera gratuita
-        en diversas materias legales, como son: matrimonio, divorcio, sucesión
-        intestada, testamentos, contratos en general, incumplimiento de
-        obligaciones, declaratorias de fábricas, separación de bienes,
-        saneamiento legal de propiedades y vehículos, alimentos, violencia
-        familiar, omisión de asistencia familiar, rectificación de partidas,
-        filiación extramatrimonial, patria potestad, tenencia, custodia y
-        entrega de menor, régimen de visitas, interdicción, curatela, tutela,
-        inscripción de partidas, incumplimientos laborales, constitución de
-        empresas, delitos, faltas, etc`,
-        description:
-          "Orientación general de manera gratuita en diversas materias legales.",
-        category: "Asesoria Legal",
-      },
     ],
     services_extra: [
       {
@@ -206,9 +185,13 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
         img: require("../assets/services/civil/pago-de-deudas.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
-        name: "Asesoria Juridica",
-        text: "Contenido de asesoria legal",
-        description: "Contenido de asesoria legal.",
+        name: "Derecho de familia",
+        text: `Ofrecemos a nuestros clientes una asesoría especializada en familia: 
+        Pensión de alimentos, régimen de visitas, tenencia; la  práctica en esta área se
+         encuentra orientada a cubrir todo el espectro de necesidades que pudieran requerir las personas NATURALES, 
+         velando siempre por el interés superior del niño y del adolescente, así mismo ofrecemos asesoría personalizada 
+         con respecto a la liquidación de  gananciales y DIVORCIO RÁPIDO. `,
+        description: "Asesoría especializada en familia.",
         category: "Asesoria Juridica",
       },
       {
@@ -216,9 +199,126 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
         img: require("../assets/services/civil/pago-de-deudas.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
-        name: "Asesoria Prueba",
-        text: "Contenido de asesoria legal",
-        description: "Contenido de Prueba",
+        name: "Derechos Reales",
+        text: `
+        Nos especializamos respecto de PROPIEDAD, el USUFRUCTO, la SERVIDUMBRE, la HIPOTECA, la PRENDA, la ANTICRESIS, la ENFITEUSIS y el censo. LA POSESIÓN puede ser o no un derecho real según el ordenamiento jurídico. 
+        También evaluamos el procedimiento de:
+        <br/>PRESCRIPCIÓN ADQUISITIVA DE DOMINIO
+        La prescripción adquisitiva de dominio constituye un mecanismo legal que permite al poseedor de un bien adquirir la propiedad de este, siempre y cuando haya cumplido con desarrollar una conducta establecida por ley y en un período determinado, informó la Superintendencia Nacional de los Registros Públicos (Sunarp)
+        <br/>OTORGAMIENTO DE ESCRITURA PÚBLICA
+        se encuentra en el plano de protección jurídica en el que quiere investirse al derecho de propiedad ya ganado.
+        `,
+        description:
+          "Especialidad respecto de propiedad, el usufructo, hipoteca, etc.",
+        category: "Asesoria Jurídica",
+      },
+      {
+        id: 15,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Derecho corporativo, comercial y contratos",
+        text: `
+        La práctica en esta área se encuentra orientada a cubrir todo el espectro de necesidades que pudieran requerir las personas jurídicas en temas corporativos y societarios, incluyendo la constitución de sociedades y sucursales, elaboración de actas de Juntas de Socios y Directorios, así como elaboración e inscripción de actos societarios tales como aumentos y reducciones de capital, regímenes de poderes, reorganización de sociedades (fusión, escisión, transformaciones, disoluciones y liquidaciones)
+        <br/>
+        El Estudio cuenta con experiencia en prestar servicios de auditoria legal en las empresas
+        `,
+        description:
+          "Necesidades que pudieran requerir las personas en temas corporativos.",
+        category: "Asesoria Jurídica",
+      },
+      {
+        id: 16,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Litigios y arbitrajes nacionales e internacionales",
+        text: `
+        Ofrecemos a nuestros clientes una asesoría especializada en la elaboración de estrategias para el desarrollo de procesos judiciales y arbítrales, así como un seguimiento dedicado de las causas hasta lograr la resolución de la controversia ya sea en el ámbito judicial o arbitral.
+        <br/>El Estudio se encuentra preparado para afrontar las diversas controversias que pudiesen surgir entre nuestros clientes y terceras personas, asesorándolas desde el momento del surgimiento del conflicto, promoviendo negociaciones entre las partes, buscando, en la medida de lo posible, soluciones concertadas mediante la suscripción de transacciones extrajudiciales y de esta forma reducir los costos que pudiera generar el conflicto.
+        <br/>Los miembros del Estudio tienen una vasta experiencia en esta materia, habiendo desarrollado un área eficaz en lograr recuperaciones, así como resolver cualquier tipo de conflicto que es ventilado en el Poder Judicial o ante un Tribunal Arbitral. La actividad es desarrollada tanto en el ámbito del derecho civil, comercial, constitucional, administrativo y laboral.
+        `,
+        description:
+          "Elaboración de estrategias para el desarrollo de procesos judiciales.",
+        category: "Asesoria Jurídica",
+      },
+      {
+        id: 17,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Derecho de seguros",
+        text: `
+        Prestamos asesoría en el campo de los seguros tanto a empresas de seguros, productores de seguros, ajustadores y personas que tengan algún tipo de interés involucrado en este campo. El asesoramiento abarca cuestiones internas propias del manejo o administración de los contratos de seguros como la solución de posibles conflictos que se pueden presentar.
+        `,
+        description: "Asesoría en el campo de los seguros.",
+        category: "Asesoria Jurídica",
+      },
+      {
+        id: 18,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Derecho administrativo y contratación con el estado",
+        text: `
+        El Estudio sus esfuerzos a asesorar a sus clientes en los procedimientos, trámites y gestiones que deben ser realizados ante las diversas entidades de la administración pública, particularmente los relativos con los procesos de contratación y adquisiciones del Estado.
+        `,
+        description: "Trámites realizados ante diversas entidades pública.",
+        category: "Asesoria Jurídica",
+      },
+      {
+        id: 19,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Derecho civil y contractual",
+        text: `
+        Esta área dirige sus esfuerzos a asesorar a sus clientes en las diversas materias del derecho reguladas en el Código Civil, tales como Obligaciones y Contratos, Familia, Sucesiones, entre otros. <br/>
+En lo concerniente a contratos el Estudio brinda asesoría en la negociación, elaboración y celebración de contratos en general, incluyendo los concernientes a la contratación moderna, como la contratación en masa, vía cláusulas generales de contratación, contratos de Arrendamiento Financiero (Leasing), Franquicia, Factoraje, Licencia, Distribución, Fideicomiso, Concesión Comercial, entre otros.<br/>
+Adicionalmente, asesoramos a nuestros clientes en la celebración de contratos de colaboración empresarial, tales como Joint Venture, Asociación en Participación y Consorcio, los mismos que si bien se encuentran regulados en la Ley General de Sociedades su naturaleza es de orden netamente contractual. Así como también brindamos asesoría a Asociaciones y demás personas jurídicas sin fines de lucro, colaborando para ello en la formalización y regularización de la documentación propia para el normal y regular desarrollo de sus actividades.
+
+        `,
+        description: "Materias del derecho reguladas en el Código Civil.",
+        category: "Asesoria Jurídica",
+      },
+      {
+        id: 20,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Derecho laboral",
+        text: `
+        Asesoramos a nuestros clientes en todos los aspectos del derecho laboral, tanto en materia de relaciones individuales como colectivas, derecho procesal laboral, derecho previsional y derecho migratorio. <br/>
+Nuestro objetivo es brindar un servicio de asesoría permanente, oportuno y eficiente a nuestros clientes, con la finalidad de coadyuvar a la gestión óptima del personal, nacional y expatriado, estableciendo tanto mecanismos de prevención y solución de conflictos laborales, migratorios y/o previsionales, como aquéllos que permitan adoptar decisiones efectivas y duraderas para aminorar, controlar y eliminar contingencias bajo la perspectiva que nos brindan los instrumentos legales de la práctica del derecho laboral.
+        `,
+        description: "Asesoramiento en todos los aspectos del derecho laboral.",
+        category: "Asesoria Jurídica",
+      },
+      {
+        id: 21,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Derecho de la competencia y protección al consumidor",
+        text: `
+        Contamos con experiencia asesorando a sus clientes ante las diversas Comisiones del Instituto Nacional de Defensa de la Competencia y Protección a la Propiedad Intelectual (INDECOPI), especialmente en tema relacionados con acciones que pudiesen haber tomado terceros que originan la distorsión del mercado, denunciando tales conductas ante el INDECOPI.
+        <br/>
+        Las antes referidas conductas no sólo pueden afectar al mercado y a los competidores, sino que también puede afectar a los consumidores por lo que nuestra asesoría también es orientada a estos últimos.
+        `,
+        description: "Asesoramiento en diversas Comisiones de INDECOPI.",
+        category: "Asesoria Jurídica",
+      },
+      {
+        id: 22,
+        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        banner:
+          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        name: "Derecho de la propiedad intelectual",
+        text: `
+        Asesoría en el registro y protección de derechos de propiedad industrial, tales como marcas de productos y servicios, lemas, nombres comerciales, entre otros.
+        `,
+        description:
+          "Asesoramiento en registro y protección de derechos de propiedad industrial.",
         category: "Asesoria Jurídica",
       },
     ],

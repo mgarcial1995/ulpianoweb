@@ -17,7 +17,16 @@
           <i class="fas fa-times"></i>
         </div>
         <router-link class="navigator__item logo" to="/">
-          <img src="./assets/logo.png" alt />
+          <img
+            src="./assets/logo.png"
+            alt="Conciliaciones-ulpiano"
+            @click="
+              closeMenuMobile(),
+                showButtonMenu == false
+                  ? (showButtonMenu = true)
+                  : (showButtonMenu = true)
+            "
+          />
         </router-link>
       </div>
       <!-- MOBILE -->
@@ -25,7 +34,7 @@
         <router-link class="menu__items__mobile--item" to="/">
           <div
             class="navigator__item--group"
-            @click="closeMenuMobile(),(showButtonMenu = !showButtonMenu)"
+            @click="closeMenuMobile(), (showButtonMenu = !showButtonMenu)"
           >
             <p>Inicio</p>
           </div>
@@ -33,7 +42,7 @@
         <router-link class="menu__items__mobile--item" to="/nosotros">
           <div
             class="navigator__item--group"
-            @click="closeMenuMobile(),(showButtonMenu = !showButtonMenu)"
+            @click="closeMenuMobile(), (showButtonMenu = !showButtonMenu)"
           >
             <p>Nosotros</p>
           </div>
@@ -42,7 +51,7 @@
         <router-link class="menu__items__mobile--item" to="/servicios">
           <div
             class="navigator__item--group"
-            @click="closeMenuMobile(),(showButtonMenu = !showButtonMenu)"
+            @click="closeMenuMobile(), (showButtonMenu = !showButtonMenu)"
           >
             <p>Servicios</p>
           </div>
@@ -50,7 +59,7 @@
         <router-link class="menu__items__mobile--item" to="/contacto">
           <div
             class="navigator__item--group"
-            @click="closeMenuMobile(),(showButtonMenu = !showButtonMenu)"
+            @click="closeMenuMobile(), (showButtonMenu = !showButtonMenu)"
           >
             <p>Contacto</p>
           </div>

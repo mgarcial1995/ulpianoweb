@@ -3,7 +3,7 @@
     <div class="home__box">
       <div class="banner">
         <p class="banner--text">¿Tienes problemas legales y quieres arreglarlos?</p>
-        <img src="https://hayderecho.expansion.com/wp-content/uploads/2020/01/neoattack-HD.jpg" alt />
+        <img src="@/assets/banner_img.png" alt />
       </div>
       <p>Lo que buscas es conciliar</p>
       <a>

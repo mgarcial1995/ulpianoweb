@@ -6,7 +6,8 @@
         <div class="list__services">
           <Service v-for="service in services" :key="service.id" :service="service" />
         </div>
-
+        <br />
+        <br />
         <p class="services__container__services--title">Asesoria Jurídica</p>
         <div class="list__services">
           <ServiceExtra
@@ -16,48 +17,18 @@
           />
         </div>
       </div>
-      <div class="form__section">
-        <form class="form__contact" action>
-          <p>Rellena tus datos para más información</p>
-          <input
-            class="form__contact--input"
-            id="name"
-            placeholder="Nombre"
-            type="text"
-            name="name"
-          />
-          <input
-            class="form__contact--input"
-            id="mobile"
-            placeholder="Celular"
-            type="text"
-            name="mobile"
-          />
-          <input
-            class="form__contact--input"
-            id="email"
-            placeholder="Correo"
-            type="email"
-            name="email"
-          />
-          <select class="form__contact--input select" name="service" id>
-            <option value="0">Seleccionar</option>
-            <option
-              v-for="(service, index) in services"
-              :key="index"
-              :value="service.id"
-            >{{ service.name }}</option>
-          </select>
 
-          <input class="form__contact--input button" type="button" value="Enviar datos" />
-        </form>
-      </div>
+      <Form />
     </div>
-    <div class="guide__section">
+    <!-- <div class="guide__section">
       <p class="text__guide">Visítanos para más información</p>
       <router-link to="/contacto" class="arrow__guide" href="#">
         <img src="../assets/arrow-guide.svg" alt="arrow" />
       </router-link>
+    </div>-->
+
+    <div class="button__open__form" @click="openForm()">
+      <i class="far fa-edit"></i>
     </div>
   </div>
 </template>
@@ -65,16 +36,30 @@
 <script>
 import Service from "../components/Service.vue";
 import ServiceExtra from "../components/ServiceExtra.vue";
+import Form from "../components/Form.vue";
 
 import { mapState } from "vuex";
 
 export default {
   name: "Services",
+  data() {
+    return { showButton: true };
+  },
 
-  components: { Service, ServiceExtra },
+  props: {
+    form: { required: true, type: Object }
+  },
+  components: { Service, ServiceExtra, Form },
   computed: {
     ...mapState(["services"]),
     ...mapState(["services_extra"])
+  },
+  methods: {
+    openForm() {
+      let form = document.getElementById("form");
+      form.style.display = "block";
+    },
+    closeForm() {}
   }
 };
 </script>
