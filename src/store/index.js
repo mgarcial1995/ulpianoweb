@@ -182,7 +182,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
     services_extra: [
       {
         id: 13,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/derecho-de-familia.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derecho de familia",
@@ -196,7 +196,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       },
       {
         id: 14,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/derecho-reales.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derechos Reales",
@@ -214,7 +214,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       },
       {
         id: 15,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/derecho-corporativo.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derecho corporativo, comercial y contratos",
@@ -229,7 +229,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       },
       {
         id: 16,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/litigios-y-arbitrajes.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Litigios y arbitrajes nacionales e internacionales",
@@ -244,7 +244,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       },
       {
         id: 17,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/derecho-de-seguros.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derecho de seguros",
@@ -256,7 +256,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       },
       {
         id: 18,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/derecho-administrativo.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derecho administrativo y contratación con el estado",
@@ -268,7 +268,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       },
       {
         id: 19,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/derecho-civil.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derecho civil y contractual",
@@ -283,7 +283,7 @@ Adicionalmente, asesoramos a nuestros clientes en la celebración de contratos d
       },
       {
         id: 20,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/derecho-laboral.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derecho laboral",
@@ -296,7 +296,7 @@ Nuestro objetivo es brindar un servicio de asesoría permanente, oportuno y efic
       },
       {
         id: 21,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/indecopi.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derecho de la competencia y protección al consumidor",
@@ -310,7 +310,7 @@ Nuestro objetivo es brindar un servicio de asesoría permanente, oportuno y efic
       },
       {
         id: 22,
-        img: require("../assets/services/civil/pago-de-deudas.jpg"),
+        img: require("../assets/services/juridico/derecho-propiedad-intelectual.jpg"),
         banner:
           "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
         name: "Derecho de la propiedad intelectual",

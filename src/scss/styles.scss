@@ -196,6 +196,7 @@ $height-navigator: 100px;
         left: 100px;
         text-align: left;
         width: 600px;
+        z-index: 101;
       }
       img {
         position: absolute;
@@ -204,6 +205,7 @@ $height-navigator: 100px;
         top: 50%;
         right: 20%;
         transform: translateY(-50%);
+        z-index: 100;
       }
     }
   }
@@ -743,6 +745,7 @@ $height-navigator: 100px;
         top: 50%;
         right: 0;
         transform: translateY(-50%);
+        filter: blur(3px);
       }
     }
   }
