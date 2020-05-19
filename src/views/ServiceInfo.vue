@@ -52,19 +52,23 @@
 <script>
 // import Navigator from "../components/Navigator.vue";
 // eslint-disable-next-line no-unused-vars
-import axios from "axios";
-import Form from "../components/Form.vue";
+import store from "@/store/index.js";
+import Form from "@/components/Form.vue";
 
 export default {
   name: "Service",
 
   components: { Form },
   data() {
-    return {};
+    return {
+      serviceId: this.$route.params.id
+    };
   },
   computed: {
     service() {
-      return this.$store.getters.service(this.$route.params.id);
+      return this.$store.state.services.find(
+        service => service.id == this.serviceId
+      );
     }
   },
   methods: {}

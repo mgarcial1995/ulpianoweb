@@ -38,6 +38,11 @@ const routes = [
     name: "Servicio",
     component: ServiceInfo,
   },
+  // {
+  //   path: "/servicios/:id",
+  //   name: "Servicio",
+  //   component: ServiceInfo,
+  // },
   {
     path: "/servicios-asesoria/:id/:name",
     name: "ServicioAsesoria",

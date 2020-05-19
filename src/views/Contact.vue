@@ -37,7 +37,6 @@
 </template>
 
 <script>
-// import Navigator from "../components/Navigator.vue";
 export default {
   name: "Contact",
   components: {}

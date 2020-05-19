@@ -323,22 +323,7 @@ Nuestro objetivo es brindar un servicio de asesoría permanente, oportuno y efic
       },
     ],
   },
-  getters: {
-    services: (state) => {
-      return state.services;
-    },
-    service: (state) => (id) => {
-      return state.services.find((service) => service.id === id);
-    },
-    servicesExtra: (state) => {
-      return state.services_extra;
-    },
-    serviceExtra: (state) => (id) => {
-      return state.services_extra.find(
-        (serviceExtra) => serviceExtra.id === id
-      );
-    },
-  },
+  getters: {},
   mutations: {},
   actions: {},
 });

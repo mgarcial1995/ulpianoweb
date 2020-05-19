@@ -32,11 +32,15 @@ export default {
   name: "Service",
   components: { Form },
   data() {
-    return {};
+    return {
+      serviceExtraId: this.$route.params.id
+    };
   },
   computed: {
     serviceExtra() {
-      return this.$store.getters.serviceExtra(this.$route.params.id);
+      return this.$store.state.services_extra.find(
+        service => service.id == this.serviceExtraId
+      );
     }
   },
   methods: {}
