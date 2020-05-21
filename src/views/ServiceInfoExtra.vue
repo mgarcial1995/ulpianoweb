@@ -4,7 +4,7 @@
     <!-- <Navigator /> -->
     <div class="service__info__container">
       <div class="service__info__container__pre">
-        <router-link to="/servicios">
+        <router-link to="/servicios-juridicos">
           <i class="fas fa-arrow-circle-left"></i>
         </router-link>
         <p class="service__info__container__pre--category">{{ serviceExtra.category }}</p>
