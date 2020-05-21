@@ -11,8 +11,7 @@ const store = new Vuex.Store({
       {
         id: 1,
         img: require("../assets/services/familiar/regimen-de-visitas.jpg"),
-        banner:
-          "https://blog.uclm.es/derechoconstitucionaltoledo/files/2017/11/Especialidad-en-Justicia-Constitucional-2-1080x420.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Regimen de visitas",
         text: `El régimen de visitas es el derecho del padre o la madre que está separado o divorciado y que no tiene la guarda y custodia de sus hijos a pasar tiempo con sus hijos. Hay que decir que, además del derecho a un régimen de visitas 
           el progenitor no custodio tiene el deber de pagar la pensión de alimentos a favor de los hijos, pero que, el incumplimiento del pago de la pensión de alimentos no implica que el régimen de visitas se extinga. Es decir, con independencia 
@@ -24,8 +23,7 @@ const store = new Vuex.Store({
       {
         id: 2,
         img: require("../assets/services/familiar/pension-de-alimentos.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Pension de alimentos",
         text: `La pensión de alimentos puede definirse como el deber impuesto a una o varias personas de asegurar la subsistencia de una u otra, 
           suponiendo la conjunción de dos partes: una acreedora que se llama alimentista, que tiene el derecho a exigir y recibir los alimentos, 
@@ -41,8 +39,7 @@ const store = new Vuex.Store({
       {
         id: 3,
         img: require("../assets/services/familiar/tenencia-de-hijos.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Tenencia de hijos",
         text: `La tenencia es una institución familiar que surge cuando los padres están separados de hecho o de derecho y tiene como finalidad establecer con quien se quedará el menor.
         Uno de los padres ejerce el derecho de tener a su hijo o hijos consigo. En la tenencia uno de los padres puede ceder este derecho según lo establecido por ley.
@@ -57,8 +54,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       {
         id: 4,
         img: require("../assets/services/familiar/liquidacion-de-gananciales.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Liquidacion de Gananciales",
         text: `En el régimen económico matrimonial de gananciales se forma una comunidad integrada por los bienes cuya masa proviene de las ganancias que cada uno de los cónyuges obtiene y de los rendimientos derivados del patrimonio ganancial y del propio patrimonio privativo. Esta comunidad se disolverá cuando se disuelva el matrimonio o instancia de las partes y, posteriormente, habrá de liquidarse, lo que supone determinar la distribución de los bienes por mitad entre los cónyuges, previas deducciones y reintegros de los bienes privativos.`,
         description:
@@ -72,8 +68,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       {
         id: 5,
         img: require("../assets/services/civil/desalojo.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Desalojo",
         text: `La pretención de desalojo es aquella que tiene por objeto recuperar el uso y goce de inmueble que se encuentra ocupado por quien carece de titulo para ello, sea por tener una obligación exigible de restituirlo o por revestir el carácter de simple intruso sin pretensiones a la posesión.
         <br/><br/>
@@ -88,8 +83,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       {
         id: 6,
         img: require("../assets/services/civil/pago-de-deudas.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Pago de deudas",
         text: `Constituye una forma especial de pago por la cual el deudor, sin realizar la prestación convenida, lleva a cabo otra distinta en concepto de pago y que es aceptada por el acreedor.
         <br/><br/>
@@ -102,8 +96,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       {
         id: 7,
         img: require("../assets/services/civil/pago-de-alquileres.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Pago de alquileres",
         text: `Un contrato de alquiler o de arrendamiento es una de las operaciones inmobiliarias financieras más comunes que tiene lugar en todas partes del mundo y respecto de todo tipo de objetos. En este contrato existen dos partes, de las cuales una es considerada arrendador y es propietaria del objeto en particular que pondrá a concesión de la parte considerada arrendataria para que esta última la utilice y ofrezca por ese uso un pago acordado previamente.
         <br/><br/>
@@ -116,8 +109,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       {
         id: 8,
         img: require("../assets/services/civil/obligacion-de-dar-dinero.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Obligación de dar suma de dinero",
         text: `Cuando la obligación consista en dar cosas que no son dinero,
         puede ocurrir que sea imposible su cumplimiento en especie y entonces aquella se resuelve en el pago de una suma de dinero. Lo mismo ocurre en el caso de incumplimiento de obligaciones de hacer o no hacer o de los daños ocasionados por un hecho ilícito.
@@ -132,8 +124,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       {
         id: 9,
         img: require("../assets/services/civil/obligacion-de-hacer-no-hacer.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Obligación de dar, hacer y no hacer",
         text: `El objeto de la obligación tiene que ser conducta, pero esta conducta materia de la prestación o de la abstención puede referirse a cosas y entonces éstas serán objetos indirectos de las prestaciones de dar o de hacer, cuando los hechos, a su vez, recaigan sobre cosas; por ejemplo, contrato de obra que tiene por objeto un hecho, construir, pero habrá de referirse a la fabricación de alguna cosa mueble o inmueble. Pueden los hechos ser formas puras de conducta, sin referencia a las cosas, como ocurre generalmente en la prestación de servicios profesionales.`,
         description: "Materia de la prestación o de la abstención.",
@@ -142,8 +133,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       {
         id: 10,
         img: require("../assets/services/civil/indemnizacion-por-danos-y-perjuicios.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Indemnización por daños y perjuicios",
         text: `Los daños y perjuicios son el menoscabo que sufre una persona a costa de la actuación de otra.
         <br/>
@@ -165,8 +155,7 @@ Si uno de los padres tiene la custodia de hecho entonces no podrá solicitar la 
       {
         id: 11,
         img: require("../assets/services/civil/incumplimiento-de-contrato.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Incumplimiento de contratos",
         text: `
         El incumplimiento de contrato es una causa de acción legal en donde un acuerdo vinculante o un intercambio negociado no es respetado por una o más de las partes del contrato por mal desempeño o interferencia con el desempeño de las otras partes.
@@ -183,8 +172,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       {
         id: 13,
         img: require("../assets/services/juridico/derecho-de-familia.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derecho de familia",
         text: `Ofrecemos a nuestros clientes una asesoría especializada en familia: 
         Pensión de alimentos, régimen de visitas, tenencia; la  práctica en esta área se
@@ -197,8 +185,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       {
         id: 14,
         img: require("../assets/services/juridico/derecho-reales.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derechos Reales",
         text: `
         Nos especializamos respecto de PROPIEDAD, el USUFRUCTO, la SERVIDUMBRE, la HIPOTECA, la PRENDA, la ANTICRESIS, la ENFITEUSIS y el censo. LA POSESIÓN puede ser o no un derecho real según el ordenamiento jurídico. 
@@ -215,8 +202,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       {
         id: 15,
         img: require("../assets/services/juridico/derecho-corporativo.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derecho corporativo, comercial y contratos",
         text: `
         La práctica en esta área se encuentra orientada a cubrir todo el espectro de necesidades que pudieran requerir las personas jurídicas en temas corporativos y societarios, incluyendo la constitución de sociedades y sucursales, elaboración de actas de Juntas de Socios y Directorios, así como elaboración e inscripción de actos societarios tales como aumentos y reducciones de capital, regímenes de poderes, reorganización de sociedades (fusión, escisión, transformaciones, disoluciones y liquidaciones)
@@ -230,8 +216,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       {
         id: 16,
         img: require("../assets/services/juridico/litigios-y-arbitrajes.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Litigios y arbitrajes nacionales e internacionales",
         text: `
         Ofrecemos a nuestros clientes una asesoría especializada en la elaboración de estrategias para el desarrollo de procesos judiciales y arbítrales, así como un seguimiento dedicado de las causas hasta lograr la resolución de la controversia ya sea en el ámbito judicial o arbitral.
@@ -245,8 +230,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       {
         id: 17,
         img: require("../assets/services/juridico/derecho-de-seguros.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derecho de seguros",
         text: `
         Prestamos asesoría en el campo de los seguros tanto a empresas de seguros, productores de seguros, ajustadores y personas que tengan algún tipo de interés involucrado en este campo. El asesoramiento abarca cuestiones internas propias del manejo o administración de los contratos de seguros como la solución de posibles conflictos que se pueden presentar.
@@ -257,8 +241,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       {
         id: 18,
         img: require("../assets/services/juridico/derecho-administrativo.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derecho administrativo y contratación con el estado",
         text: `
         El Estudio sus esfuerzos a asesorar a sus clientes en los procedimientos, trámites y gestiones que deben ser realizados ante las diversas entidades de la administración pública, particularmente los relativos con los procesos de contratación y adquisiciones del Estado.
@@ -269,8 +252,7 @@ La noción de incumplimiento no es unívoca pues cada sistema jurídico puede pr
       {
         id: 19,
         img: require("../assets/services/juridico/derecho-civil.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derecho civil y contractual",
         text: `
         Esta área dirige sus esfuerzos a asesorar a sus clientes en las diversas materias del derecho reguladas en el Código Civil, tales como Obligaciones y Contratos, Familia, Sucesiones, entre otros. <br/>
@@ -284,8 +266,7 @@ Adicionalmente, asesoramos a nuestros clientes en la celebración de contratos d
       {
         id: 20,
         img: require("../assets/services/juridico/derecho-laboral.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derecho laboral",
         text: `
         Asesoramos a nuestros clientes en todos los aspectos del derecho laboral, tanto en materia de relaciones individuales como colectivas, derecho procesal laboral, derecho previsional y derecho migratorio. <br/>
@@ -297,8 +278,7 @@ Nuestro objetivo es brindar un servicio de asesoría permanente, oportuno y efic
       {
         id: 21,
         img: require("../assets/services/juridico/indecopi.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derecho de la competencia y protección al consumidor",
         text: `
         Contamos con experiencia asesorando a sus clientes ante las diversas Comisiones del Instituto Nacional de Defensa de la Competencia y Protección a la Propiedad Intelectual (INDECOPI), especialmente en tema relacionados con acciones que pudiesen haber tomado terceros que originan la distorsión del mercado, denunciando tales conductas ante el INDECOPI.
@@ -311,8 +291,7 @@ Nuestro objetivo es brindar un servicio de asesoría permanente, oportuno y efic
       {
         id: 22,
         img: require("../assets/services/juridico/derecho-propiedad-intelectual.jpg"),
-        banner:
-          "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2019/04/12/15550800990306.jpg",
+        banner: require("../assets/services/bgbanner.jpg"),
         name: "Derecho de la propiedad intelectual",
         text: `
         Asesoría en el registro y protección de derechos de propiedad industrial, tales como marcas de productos y servicios, lemas, nombres comerciales, entre otros.

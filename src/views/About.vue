@@ -9,9 +9,6 @@
           del derecho como también personal auxiliar especializado y una
           adecuada infraestructura, que nos permiten prestar a nuestros clientes
           un servicio de asesoría legal de la más alta calidad.
-          <br />Nuestro despacho, constituido por un grupo de abogados cuya
-          experiencia y especialización se complementan y aseguran un eficiente
-          y oportuno servicio a los clientes.
         </p>
       </div>
 
@@ -60,13 +57,13 @@
         <p class="valor__container__text">
           En nuestro despacho, constituido por un grupo de abogados cuya
           experiencia y especialización se complementan y aseguran un eficiente
-          y oportuno servicio a los clientes; nos permitimos presentarles los
+          y oportuno servicio a los clientes, nos permitimos presentarles los
           servicios de asesoría jurídica que brinda atención profesional
-          personalizada orientada a lograr resultados favorables a costos muy
+          personalizada, orientada a lograr resultados favorables a costos muy
           competitivos dentro del mercado, la que no sólo se limita a la
           absolución de consultas de índole legal y patrocinio de casos
           judiciales, sino que se extiende a prestar una asesoría permanente y
-          en la posibilidad de darse el caso evitar largos y costosos procesos
+          en la posibilidad de darse el caso evitar largos y costosos procesos.
         </p>
       </div>
 

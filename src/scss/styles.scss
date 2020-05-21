@@ -15,7 +15,9 @@ $color-lila-fondo: #f2e0ec;
 $color-buttons: #a6006c;
 
 $height-navigator: 100px;
-
+#anti-spam {
+  display: none;
+}
 // transicion
 .fade-enter-active,
 .fade-leave-active {
@@ -590,7 +592,6 @@ $height-navigator: 100px;
   }
 }
 // CERRANDO SERVICIOS
-
 // SERVICIO
 .service__info {
   padding-top: 130px;
@@ -603,6 +604,19 @@ $height-navigator: 100px;
     width: 65%;
     height: auto;
     padding: 0px 70px;
+    &__requisitos {
+      margin: 30px 20px;
+      color: $color-text;
+      p {
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: -20px;
+      }
+      ol li {
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
     &__pre {
       display: flex;
       i {
@@ -620,13 +634,14 @@ $height-navigator: 100px;
       &--banner {
         width: 100%;
         max-height: 300px;
+        height: 300px;
         background-color: #333;
         position: relative;
         overflow: hidden;
 
         img {
           width: 100%;
-          height: auto;
+          height: 100%;
         }
         h1 {
           position: absolute;
@@ -817,7 +832,6 @@ $height-navigator: 100px;
         text-align: center;
         font-weight: 600;
         margin: 0;
-        background-color: rgb(255, 204, 204);
         padding: 20px 100%;
         border-bottom: 1px solid #333;
         .navigator__item--group {

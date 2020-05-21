@@ -7,6 +7,7 @@ import Services from "../views/Services.vue";
 import Contact from "../views/Contact.vue";
 import ServiceInfo from "../views/ServiceInfo.vue";
 import ServiceInfoExtra from "../views/ServiceInfoExtra.vue";
+import ServicesExtra from "../views/ServicesExtra.vue";
 
 import Error from "../views/Error.vue";
 
@@ -24,9 +25,14 @@ const routes = [
     component: About,
   },
   {
-    path: "/servicios",
+    path: "/servicios-conciliacion",
     name: "Services",
     component: Services,
+  },
+  {
+    path: "/servicios-juridicos",
+    name: "ServicesExtra",
+    component: ServicesExtra,
   },
   {
     path: "/contacto",
@@ -48,22 +54,11 @@ const routes = [
     name: "ServicioAsesoria",
     component: ServiceInfoExtra,
   },
-  { path: "*", name: "Error", component: Error },
+  { path: "/*", name: "Error", component: Error },
 ];
 
 const router = new VueRouter({
   mode: "history",
-  // scrollBehavior(to, from, savedPosition) {
-  //   if (savedPosition) {
-  //     return savedPosition;
-  //   } else {
-  //     const position = {};
-  //     if (to.hash) {
-  //       position.selector = to.hash;
-  //       return false;
-  //     }
-  //   }
-  // },
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;

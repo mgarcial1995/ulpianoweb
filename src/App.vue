@@ -48,7 +48,7 @@
           </div>
         </router-link>
 
-        <router-link class="menu__items__mobile--item" to="/servicios">
+        <router-link class="menu__items__mobile--item" to="/servicios-conciliacion">
           <div
             class="navigator__item--group"
             @click="closeMenuMobile(), (showButtonMenu = !showButtonMenu)"
@@ -85,7 +85,7 @@
         <router-link class="navigator__item logo" to="/">
           <img src="./assets/logo.png" alt />
         </router-link>
-        <router-link class="navigator__item" to="/servicios">
+        <router-link class="navigator__item" to="/servicios-conciliacion">
           <div class="navigator__item--group">
             <i class="fas fa-book"></i>
             <p>Servicios</p>

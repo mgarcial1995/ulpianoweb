@@ -2,9 +2,13 @@
   <div class="services">
     <div class="services__container">
       <div class="services__container__services">
-        <p class="services__container__services--title">Conciliaciones familiar y civil</p>
+        <p class="services__container__services--title">Asesoria Jurídica</p>
         <div class="list__services">
-          <Service v-for="service in services" :key="service.id" :service="service" />
+          <ServiceExtra
+            v-for="service_extra in services_extra"
+            :key="service_extra.id"
+            :service_extra="service_extra"
+          />
         </div>
       </div>
 
@@ -24,13 +28,13 @@
 </template>
 
 <script>
-import Service from "../components/Service.vue";
+import ServiceExtra from "../components/ServiceExtra.vue";
 import Form from "../components/Form.vue";
 
 import { mapState } from "vuex";
 
 export default {
-  name: "Services",
+  name: "ServicesExtra",
   data() {
     return { showButton: true };
   },
@@ -38,7 +42,7 @@ export default {
   props: {
     form: { required: true, type: Object }
   },
-  components: { Service, Form },
+  components: { ServiceExtra, Form },
   computed: {
     ...mapState(["services"]),
     ...mapState(["services_extra"])
